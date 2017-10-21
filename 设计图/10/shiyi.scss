@@ -1,0 +1,402 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,body{
+
+    width: 100%;
+}
+.top{
+    width: 100%;
+    display: flex;
+    img{
+        width: 2.16rem;
+        height: 0.72rem;
+        padding: 0.16rem 0;
+        margin-left: 0.18rem;
+    }
+    .zi{
+     font-size: 32px;
+     color: #000;
+     margin-left: 0.93rem;
+     margin-top: 0.37rem;
+    }
+    div{
+        display: flex;
+        position: absolute;
+        right: 0.18rem;
+        margin-top: 0.15rem;
+        span{
+            display: flex;
+            flex-direction: column;
+            height: 0.45rem;
+            padding: 0 0.17rem;
+            position: relative;
+            p{
+                font-size: 0.22rem;
+                color: #999;
+                position: absolute;
+                top: 0.4rem;
+            }
+            
+        }
+        .icon_b{
+            position: absolute;
+            right: 0.4rem;
+        }
+    }
+}
+.tu{
+    width: 100%;
+    height: 3rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.shen{
+    width: auto;
+    margin: 0 16px;
+    p{
+        font-size: 32px;
+        color: #000;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 0.42rem;
+    }
+    .xian{
+        width: 100%;
+        height: 0.05rem;
+        background: #39c893;
+        position: relative;
+        margin-top: 0.42rem;
+        img{
+            width: 0.75rem;
+            height: 0.25rem;
+            position: absolute;
+            left: 3.32rem;
+            top: -0.05rem;
+        }
+    }
+    
+}
+.inp{
+    width: 100%;
+    input{
+        width: 5.84rem;
+        height: 0.7rem;
+        margin-left: 0.87rem;
+        border: 1px solid #999;
+        border-radius: 0.1rem;
+        font-size: 26px;
+    }
+    div{
+        width: 5.84rem;
+        height: 0.7rem;
+        margin-left: 0.87rem;
+        border-radius: 0.1rem;
+        background: #feb605;
+        color: white;
+        font-size: 31px;
+        margin-top: 0.26rem;
+        text-align: center;
+        line-height: 0.7rem;
+        overflow: hidden;
+    }
+}
+.xu{
+    width: auto;
+    margin: 0 16px;
+    border: 1px dashed #39c893;
+    height: 2.04rem;
+    margin-top: 0.9rem;
+    position: relative;
+    h1{
+        font-size: 33px;
+        color: #000;
+        position: absolute;
+        top: -0.2rem;
+        left: 2.17rem;
+        overflow: hidden;
+    }
+    p{
+        font-size: 0.21rem;
+        color: #000;
+        padding-top: 0.13rem;
+        box-sizing: border-box;
+        margin-left: 0.17rem;
+        overflow: hidden;
+        span{
+            font-size: 21px;
+            color: #39c893;
+            overflow: hidden;
+        }
+    }
+   
+}
+.box{
+    width: auto;
+    margin: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    div{
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0.48rem 0;
+        li{
+            width: 1.05rem;
+            height: 1.05rem;
+            background: #39c893;
+            border-radius: 50%;
+            position: relative;
+            text-align: center;
+            margin-left: 1.14rem;
+            span{
+                font-size: 60px;
+                color: white;
+                position: absolute;
+                top: 0.28rem;
+                left: 0.28rem;
+            }
+        }
+        p{
+            font-size: 26px;
+            color: #000;
+            overflow: hidden;
+            margin-left: 0.82rem;
+            margin-top: 0.22rem;
+        }
+    }
+}
+.ul_5{
+    width: 100%;
+    .ll_1{
+        width: 40%;
+        text-align: right;
+        line-height: 0.5rem;
+        img{
+            width:2.79rem;height: 1.14rem;
+        }
+        p{
+            font-size: 0.22rem;margin-top: 0.2rem;
+        }
+    }
+}
+
+
+
+
+.gs_d{
+    display: flex;
+     .g{
+//              padding-left: 0.2rem;
+                width: 0.8rem;
+                height: 0.8rem;
+           border: 0.02rem dashed #3FE99C;
+                background: white;
+                position: relative;
+
+               text-align: center;
+               border-radius: 50%;
+               margin: 0.2rem 0.3rem 0.2rem 0.9rem;
+               line-height: 0.8rem;
+           span{
+               font-size: 0.4rem ;
+               color: #3FE99C;
+               position: absolute;
+               top: 0.03rem;
+               left: 0.2rem;
+           }
+           } 
+}
+.ftu{
+    width: auto;
+    margin: 0 16px;
+    margin: 0.3rem 0;
+    box-sizing: border-box;
+    background: #eee;
+    margin-top: 0.3rem;
+    img{
+        width: 100%;
+        height: 1.36rem;
+        margin-top: 0.3rem;
+    }
+}
+.huang{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    img{
+        width: 4.07rem;
+        height: 0.8rem;
+        margin-left: 1.77rem;
+        
+    }
+    p{
+        font-size: 36px;
+        color: black;
+        position: absolute;
+        top: 0.01rem;
+        left: 2.89rem;
+        overflow: hidden;
+    }
+    span{
+        font-size: 24px;
+        color: #eee;
+        position: absolute;
+        left: 2.5rem;
+        top: 0.5rem;
+        overflow: hidden;
+    }
+}
+.box{
+    width: auto;
+    margin: 0 16px;
+    margin-top: 0.3rem;
+      display: flex;
+    .left{
+        width: 50%;
+        text-align: right;
+        padding: 0  0.24rem;
+        box-sizing: border-box;
+        img{
+            width: 2.83rem;
+            height: 1.17rem;
+        }
+        p{
+            font-size: 28px;
+            color: #000;
+            overflow: hidden;
+        }
+        span{
+            font-size: 28px;
+            color: #39c893;
+            overflow: hidden;
+        }
+        h1{
+            font-size: 56px;
+            color: #000;
+            margin-top: 0.33rem;
+            overflow: hidden;
+        }
+    }
+    .right{
+        width: 50%;
+         text-align: left;
+   .rightli{
+       display: flex;
+            .yi{
+                width: 0.82rem;
+                height: 0.82rem;
+                background: white;
+                border: 2px dashed #39c893;
+                border-radius: 50%;
+                span{
+                    color: #39c893;
+                }
+            }
+           .erzi{
+                p{
+                    width: 1.15rem;
+                    font-size: 28px;
+                    color: #000;
+                     span{
+                    font-size: 26px;
+                    color: #39c893;
+                }
+                }
+               
+               
+            } 
+            }
+            
+}
+}
+.zi{
+     width: auto;
+   margin: 0 16px;
+    margin-bottom: 0.36rem;
+    margin: 0 auto;
+   position: relative;
+    p{
+        margin-left: 0.16rem;
+        font-size: 0.28rem;
+        color: #333;
+        margin-top: 0.36rem;
+    }
+   
+    p:first-child{
+        text-indent: 0.55rem;
+    }
+    .yuan{
+        width: 0.9rem;
+        height: 0.9rem;
+        border: 1px solid #dedede;
+        border-radius: 0.5rem;
+        position: absolute;
+        top: 2.35rem;
+        right: 0.17rem;
+        text-align: center;
+        span{
+            font-size: 0.4rem;
+            color: #9c9c9c;
+            position: absolute;
+            bottom: 0.22rem;
+            left: 0.25rem;
+        }
+}
+
+}
+.rexian{
+     width: auto;
+   margin: 0 16px;
+    display: flex;
+    margin: 0 auto;
+    p{
+        font-size: 0.28rem;
+        color: #333;
+        margin-top: 0.7rem;
+        span{
+            margin-left: 1.7rem;
+            color: #39c893;
+        }
+    }
+}
+.dao{
+    width: auto;
+   margin: 0 16px;
+   margin-top: 0.35rem;
+   display: flex;
+   li{
+       width: 25%;
+       text-align: center;
+       font-size: 0.28rem;
+       color: #333;
+       border-right: 1px solid #eee;
+   }
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem 0;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    p{
+        font-size: 21px;
+        color: #333;
+    }
+}
+.ditu{
+    width: 100%;
+    height: 0.38rem;
+    display: flex;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

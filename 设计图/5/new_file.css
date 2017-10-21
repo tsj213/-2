@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.n_1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.16rem 0.18rem 0 0.18rem;
+  color: #999999; }
+  .n_1 span {
+    font-size: 0.45rem;
+    margin-top: 0.05rem; }
+  .n_1 .div_1 .dd_1 {
+    font-size: 0.45rem;
+    color: #999999; }
+  .n_1 .div_1 .dd_2 {
+    font-size: 0.33rem;
+    margin-left: 0.33rem;
+    padding: 0 0; }
+  .n_1 .div_1 p {
+    font-size: 0.22rem;
+    color: #999; }
+
+.d_1 {
+  padding: 1.04rem 0 0.69rem;
+  background: #202020;
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .d_1 p {
+    margin: 1.28rem 0.18rem 0;
+    height: 1.5rem;
+    overflow: hidden; }
+
+.dd_1 {
+  position: absolute;
+  top: 6.1rem;
+  left: -0.2rem; }
+  .dd_1 div {
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 0.03rem solid #37C993;
+    border-radius: 50%;
+    margin-bottom: 0.25rem; }
+  .dd_1 span {
+    font-size: 28px;
+    color: #37C993;
+    margin-left: -0.2rem; }
+
+.ppp {
+  font-size: 0.28rem;
+  text-indent: 0.54rem;
+  padding: 0.36rem 0.18rem;
+  line-height: 0.5rem; }
+
+.da_1 p {
+  text-align: center;
+  padding: 0.3rem 0;
+  font-size: 0.28rem;
+  color: #333333; }
+  .da_1 p img {
+    width: 0.32rem;
+    height: 0.32rem; }
+.da_1 ul {
+  display: flex;
+  font-size: 0.28rem;
+  justify-content: space-between;
+  padding: 0 0.5rem; }
+
+.foot_1 {
+  font-size: 0.36rem;
+  color: white; }
+  .foot_1 span {
+    font-size: 0.56rem;
+    color: white;
+    font-weight: bolder; }
+
+.uu li {
+  padding-top: 0.18rem;
+  display: flex;
+  background: #282828; }
+  .uu li img {
+    width: 0.48rem;
+    height: 0.48rem; }
+.uu .pp1 {
+  font-size: 0.18rem;
+  color: white;
+  margin-bottom: 0; }
+  .uu .pp1 span {
+    color: #DE8206; }
+.uu .pp2 {
+  color: #CCcccc;
+  font-size: 0.12rem; }
+
+.topp {
+  width: 0.94rem;
+  height: 0.94rem;
+  border: 0.02rem solid #000000;
+  border-radius: 50%;
+  text-align: center;
+  background: #9c9c9c;
+  line-height: 0.94rem;
+  position: fixed;
+  right: 0.18rem;
+  bottom: 2.5rem; }
+  .topp span {
+    font-size: 0.4rem; }
+
+/*# sourceMappingURL=new_file.css.map */

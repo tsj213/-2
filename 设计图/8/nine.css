@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 32px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+.list {
+  width: 100%;
+  display: flex;
+  height: 1rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+  .list li {
+    width: 25%;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0.3rem; }
+    .list li span {
+      font-size: 30px;
+      color: #999;
+      margin-left: 0.27rem; }
+
+.gray {
+  width: 100%;
+  height: 5.86rem;
+  background: #f4f4f4; }
+  .gray .li {
+    width: auto;
+    margin: 0 16px; }
+    .gray .li p {
+      font-size: 0.28rem;
+      color: #000;
+      padding-top: 0.5rem;
+      box-sizing: border-box; }
+    .gray .li div {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0.11rem; }
+      .gray .li div li {
+        width: 2.33rem;
+        height: 0.58rem;
+        border: 1px solid #39c893;
+        text-align: center;
+        line-height: 0.58rem;
+        font-size: 0.28rem;
+        color: #999;
+        margin-top: 0.25rem;
+        margin-left: 0.05rem; }
+
+.sure {
+  width: 100%;
+  height: 0.72rem;
+  background: #39c893;
+  text-align: center;
+  line-height: 0.72rem;
+  font-size: 0.36rem;
+  color: white; }
+
+.box {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  border-bottom: 1px solid #999;
+  position: relative; }
+  .box img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.36rem; }
+  .box .sbox {
+    width: 75%;
+    height: 2.28rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.36rem; }
+    .box .sbox .yihang {
+      display: flex;
+      justify-content: space-between; }
+      .box .sbox .yihang p {
+        font-size: 36px;
+        color: #000; }
+      .box .sbox .yihang span {
+        display: inline-block;
+        width: 0.6rem;
+        height: 0.3rem;
+        background: #3ac893;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        margin-left: 0.22rem; }
+    .box .sbox .erhang {
+      display: flex;
+      margin-top: 0.28rem; }
+      .box .sbox .erhang p {
+        font-size: 28px;
+        color: #000;
+        margin-left: 0.22rem; }
+      .box .sbox .erhang span {
+        font-size: 28px;
+        color: #999; }
+    .box .sbox .sanhang {
+      display: flex;
+      margin-top: 0.2rem; }
+      .box .sbox .sanhang p {
+        font-size: 28px;
+        color: #000;
+        margin-left: 0.22rem; }
+      .box .sbox .sanhang span {
+        font-size: 28px;
+        color: #999; }
+
+.hui {
+  width: 100%;
+  height: 5.2rem;
+  background: #000;
+  opacity: 0.15;
+  position: absolute;
+  top: 8.7rem; }
+
+.last {
+  width: 100%;
+  height: 0.78rem;
+  display: flex; }
+  .last img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=nine.css.map */

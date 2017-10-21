@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="swiper.css" />
+		<script src="swiper.js"></script>
+		<style>
+			.swiper-slide>img{
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="swiper-container con_1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="../img/1.jpg" alt="" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../img/2.jpg" alt="" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../img/3.jpg" alt="" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../img/4.jpg" alt="" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../img/5.jpg" alt="" />
+				</div>
+			</div>
+			<div class="swiper-pagination pag_1"></div>
+			<div class="swiper-button-next nex_1"></div>
+			<div class="swiper-button-prev pre_1"></div>
+		</div>
+	</body>
+	<script>
+		var Swiper=new Swiper(".con_1",{
+			autoplay:1000,
+			loop:true,
+			pagination:".pag_1",
+			paginationClickable:true,
+			prevButton:'.pre_1',
+			nextButton:'.nex_1'
+		})
+	</script>
+</html>

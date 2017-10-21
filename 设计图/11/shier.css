@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 32px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem;
+    overflow: hidden; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative;
+      overflow: hidden; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem;
+        overflow: hidden; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+.box {
+  width: auto;
+  margin: 0 16px;
+  border-bottom: 1px solid #999; }
+  .box .sbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.36rem 0; }
+    .box .sbox li {
+      width: 0.6rem;
+      height: 0.6rem;
+      background: #999;
+      display: flex;
+      border-radius: 50%;
+      position: relative; }
+      .box .sbox li span {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 0.1rem;
+        left: 0.1rem;
+        overflow: hidden; }
+    .box .sbox p {
+      font-size: 28px;
+      color: #39c893;
+      position: absolute;
+      left: 1rem;
+      overflow: hidden; }
+    .box .sbox span {
+      font-size: 28px;
+      color: #999;
+      overflow: hidden; }
+  .box p {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 0.36rem;
+    overflow: hidden; }
+
+.fan {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  padding: 0.36rem 0;
+  box-sizing: border-box; }
+  .fan button {
+    width: 2.35rem;
+    height: 0.82rem;
+    background: #39c893;
+    text-align: center;
+    line-height: 0.82rem;
+    color: white;
+    font-size: 36px; }
+  .fan div {
+    width: 2.35rem;
+    height: 0.82rem;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    line-height: 0.82rem;
+    color: #000;
+    font-size: 36px; }
+
+.zi {
+  width: auto;
+  margin: 0 16px;
+  margin-bottom: 0.36rem;
+  margin: 0 auto;
+  position: relative; }
+  .zi p {
+    font-size: 28px;
+    color: #333;
+    margin-top: 0.36rem;
+    overflow: hidden; }
+  .zi p:first-child {
+    text-indent: 0.55rem; }
+  .zi .yuan {
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 0.17rem;
+    text-align: center; }
+    .zi .yuan span {
+      font-size: 0.4rem;
+      color: #9c9c9c;
+      position: absolute;
+      bottom: 0.22rem;
+      left: 0.25rem;
+      overflow: hidden; }
+  .zi .yuan_b {
+    width: 0.94rem;
+    height: 0.94rem;
+    background: #1b9bf7;
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    left: 6.18rem; }
+    .zi .yuan_b span {
+      font-size: 46px;
+      color: white;
+      position: absolute;
+      top: 0.3rem;
+      left: 0.3rem;
+      overflow: hidden; }
+
+.rexian {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem;
+    overflow: hidden; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893;
+      overflow: hidden; }
+
+.dao {
+  width: auto;
+  margin: 0 16px;
+  margin: 0 auto;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border: 1px solid #60d4a8; }
+
+.div {
+  width: 100%;
+  height: 1.06rem;
+  background: #333;
+  display: flex;
+  position: relative; }
+  .div .div_a {
+    width: 0.5rem;
+    height: 0.5rem; }
+  .div .div_b {
+    width: 4.2rem;
+    height: 0.9rem; }
+  .div span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #feb605;
+    font-size: 0.23rem;
+    color: white;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.37rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.7rem; }
+
+.last {
+  width: 100%;
+  height: 0.78rem;
+  display: flex; }
+  .last img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=shier.css.map */

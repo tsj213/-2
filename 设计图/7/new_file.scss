@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.n_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.16rem 0.18rem 0 0.18rem;
+      
+        img{
+            width: 1.83rem;
+            height: 0.65rem;
+            margin-top: 0.05rem;
+        }
+    .div_1{
+        .dd_1{
+           font-size: 0.45rem;
+           color: #999999;
+        }
+        .dd_2{
+            font-size: 0.33rem;
+            color: #999999;
+            margin-left:0.33rem ;
+            padding: 0.1rem 0;
+        }
+        p{
+            font-size:0.22rem;
+            color: #999;
+        }
+    }
+        
+   
+}
+.con_1{
+    .swiper-slide{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.d_1{
+    margin: 0 0.16rem;
+    text-align: center;
+    padding:0.3rem 0 ;
+   .p1{
+       font-size: 0.36rem;
+       
+   }
+   .e{
+       display:flex ;
+       padding-bottom:0.3rem ;
+       li{
+           width: 33%;
+           line-height: 0.5rem;
+           hr{
+               color: #C0C0C0;
+               border: 0.01rem solid;
+           }
+           img{
+               width: 1.14rem;
+               height: 0.44rem;
+           }
+       }
+   }
+}
+.boo_1{
+//  margin: 0 auto;
+    width:6.5rem ;
+    margin: 0 auto;
+    padding-bottom: 0.11rem;
+    margin-top: -0.11rem;
+    input{
+        width: 5.86rem;
+        height: 0.7rem;
+        border: 0.02rem #EEEEEE;
+        margin-bottom: 0.25rem;
+    }
+    input::-webkit-input-placeholder{
+        font-size: 0.28rem;
+        color: #cacaca;
+    }
+}
+.ppp{
+    font-size: 0.24rem;
+    border: 0.03rem dashed #3FE99C;
+    text-indent: 0.54rem;
+    padding: 0.36rem 0.18rem;
+    line-height: 0.5rem;
+    text-align: left;
+}
+.de{
+    position: relative;
+}
+.u_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   li{
+       width: 28%;
+       border: 0.02rem solid #3FE99C;
+//     text-align: center;
+       div{
+           width: 0.8rem;
+           height: 0.8rem;
+           border: 0.02rem solid #3FE99C;
+           text-align: center;
+           border-radius: 50%;
+           margin: 0.2rem 0.6rem;
+           line-height: 0.8rem;
+           span{
+               font-size: 0.4rem ;
+               color: #3FE99C;
+           }
+       }
+       p{
+           font-size: 0.36rem;
+       }
+   } 
+}
+.biao{
+    .biao_1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.16rem 0.36rem;
+        .f{
+           div{
+                width: 0.8rem;
+                height: 0.8rem;
+//         border: 0.02rem solid #3FE99C;
+                background: #3FE99C;
+
+               text-align: center;
+               border-radius: 50%;
+               margin: 0.2rem 0.6rem;
+               line-height: 0.8rem;
+           span{
+               font-size: 0.4rem ;
+               color: white;
+           }
+           } 
+        }
+    }
+    hr{
+               color: #C0C0C0;
+               border: 0.01rem solid;
+           }
+}
+.aaaaa{
+     background: #F4F4F4;
+    .d_2{
+    margin: 0 0.16rem;
+//  height: 30rem;
+   
+    
+    .d_01{
+        text-align: center;
+        background-image: url(../img/loans2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 65%;
+        margin: 0 auto;
+        color: white;
+        .p1{
+            font-size: 0.36rem;
+            
+        }
+        .p2{
+            font-size: 0.24rem;
+        }
+    }
+}
+}
+
+
+.ul_5{
+    width: 100%;
+    .ll_1{
+        width: 40%;
+        text-align: right;
+        line-height: 0.5rem;
+        img{
+            width:2.79rem;height: 1.14rem;
+        }
+        p{
+            font-size: 0.22rem;margin-top: 0.2rem;
+        }
+    }
+}
+
+
+.gs_d{
+    display: flex;
+     .g{
+//              padding-left: 0.2rem;
+                width: 0.8rem;
+                height: 0.8rem;
+           border: 0.02rem dashed #3FE99C;
+                background: white;
+
+               text-align: center;
+               border-radius: 50%;
+               margin: 0.2rem 0.3rem 0.2rem 0.9rem;
+               line-height: 0.8rem;
+           span{
+               font-size: 0.4rem ;
+               color: #3FE99C;
+           }
+           } 
+}
+          
+   .ppp{
+    font-size: 0.28rem;
+    text-indent: 0.54rem;
+    padding: 0.36rem 0.18rem;
+    line-height: 0.5rem;
+}
+.da_1{
+    p{
+        text-align: center;
+        padding:0.3rem 0 ;
+        img{
+            width: 0.32rem;
+            height: 0.32rem;
+        }
+        font-size:0.28rem;
+        color: #333333;
+    }
+    ul{
+        display: flex;
+        font-size: 0.28rem;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+}
+.foot_1{
+    position: relative;
+    overflow: hidden;
+    div{
+        position: absolute;
+        width: 0.96rem;
+        height: 0.96rem;
+        border-radius:50% ;
+        top: -0.48rem;
+        left: -0.48rem;
+        background:#62D4A9 ;
+        line-height: 650%;
+        
+        span{
+            font-size: 0.24rem;
+            color: white;
+            font-weight: bolder;
+           
+        }
+        
+    }
+    .bbb{
+            font-size: 0.24rem;
+            width: 1.75rem;
+            height: 0.5rem;
+            background:#feb605;
+             color: white;
+             font-weight: border;
+             border-radius: 0.2rem;
+             text-align: center;
+//           line-height: 1rem;
+             margin-left:0.3rem ;
+        }
+}
+.uu{
+   
+    li{
+        padding-top: 0.18rem;
+        img{
+            width: 0.48rem;
+            height: 0.48rem;
+        }
+         display: flex;
+        background:#282828 ;
+    }
+    .pp1{
+        font-size: 0.18rem;
+        color: white;
+        margin-bottom: 0;
+        span{
+            color: #DE8206;
+        }
+    }
+    .pp2{
+        color: #CCcccc;
+        font-size: 0.12rem;
+        
+    }
+}
+.topp{
+    width:0.94rem;
+    height: 0.94rem;
+    border: 0.02rem solid #000000;
+    border-radius: 50%;
+    text-align: center;
+    background: #9c9c9c;
+    line-height: 0.94rem;
+    position: fixed;
+    right: 0.18rem;
+    bottom:2.5rem ;
+    span{
+        font-size: 0.4rem;
+    }
+}
+     
